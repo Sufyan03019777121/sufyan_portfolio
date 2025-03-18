@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+   
+}
+
+/* Fuente tipografica desktop */
+.h1_font_size{
+    font-size: 2.25rem;
+} 
+.h2_font_size{
+    font-size: 1.5rem;
+} 
+.h3_font_size{
+    font-size: 1.25rem;
+} 
+.h4_font_size{
+    font-size: 1rem;
+} 
+.small_font{
+    font-size: .875rem;
+} 
+.smaller_font{
+    font-size: .813rem;
+} 
+
+@media (max-width: 426px) {
+    .h1_font_size{
+        font-size: 1.5rem;
+        
+    }
+}
