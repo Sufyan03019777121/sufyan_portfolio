@@ -33,15 +33,19 @@ const About = () => {
             </li>
 
           </ul>
-          <a href="https://wa.me/923019777121?">
+          <a
+            href="https://wa.me/923019777121?"
+            target="_blank"
+          >
+
             <button className="btn btn-primary mt-3">Hire Me</button>
           </a>
-          
+
         </div>
       </div>
       <hr />
     </section>
-    
+
   );
 };
 
