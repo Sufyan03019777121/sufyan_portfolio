@@ -41,7 +41,7 @@ const Projects = () => {
                                 <div class="card-footer bg-transparent mb-3">
                                     <a
                                         class="btn btn-outline-primary btn-sm text-uppercase"
-                                        href=""
+                                        href="https://github.com/Sufyan03019777121/e-car-website.git"
                                         target="_blank"
                                     >
                                         <span class="material-icons-outlined me-1">code</span>
@@ -70,7 +70,7 @@ const Projects = () => {
                                 <div class="card-footer bg-transparent mb-3">
                                     <a
                                         class="btn btn-outline-primary btn-sm text-uppercase"
-                                        href=""
+                                        href="https://github.com/Sufyan03019777121/portfolio3.git"
                                         target="_blank"
                                     >
                                         <span class="material-icons-outlined me-1">code</span>
@@ -105,8 +105,8 @@ const Projects = () => {
                                         href=""
                                         target="_blank"
                                     >
-                                        <span class="material-icons-outlined me-1">code</span>
-                                        Source Code
+                                        <span class="material-icons-outlined me-1">comming soon</span>
+                                        
                                     </a>
                                 </div>
                             </div>

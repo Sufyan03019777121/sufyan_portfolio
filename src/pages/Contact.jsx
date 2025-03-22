@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import L from "leaflet";  
 
 const ContactSection = () => {
-  const [position, setPosition] = useState([31.4832, 74.3587]); // Walton, Farooq Colony, Lahore
+  const [position, setPosition] = useState([31.470849,74.3297783,16.58]);
 
   useEffect(() => {
     if ("geolocation" in navigator) {
@@ -15,6 +16,18 @@ const ContactSection = () => {
       );
     }
   }, []);
+
+  const position_2 = [31.470849,74.3297783,16.58];
+
+  // Custom Red Icon
+  const redIcon = new L.Icon({
+    iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png",
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
+    shadowSize: [41, 41],
+  });
 
   return (
     <section id="contact" className="text-center ">
@@ -35,7 +48,9 @@ const ContactSection = () => {
           <div className="col-md-6 pb-5  ">
             <MapContainer center={position} zoom={13} style={{ height: "300px", width: "100%" }}>
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-
+              <Marker position={position_2} icon={redIcon}>
+                <Popup>📍 لاہور، پاکستان</Popup>
+              </Marker>
             </MapContainer>
           </div>
 
