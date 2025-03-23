@@ -43,6 +43,7 @@ const Projects = () => {
                                         class="btn btn-outline-primary btn-sm text-uppercase"
                                         href="https://github.com/Sufyan03019777121/e-car-website.git"
                                         target="_blank"
+                                        rel="noreferrer" 
                                     >
                                         <span class="material-icons-outlined me-1">code</span>
                                         Source Code
@@ -72,6 +73,7 @@ const Projects = () => {
                                         class="btn btn-outline-primary btn-sm text-uppercase"
                                         href="https://github.com/Sufyan03019777121/portfolio3.git"
                                         target="_blank"
+                                        rel="noreferrer" 
                                     >
                                         <span class="material-icons-outlined me-1">code</span>
                                         Source Code
@@ -100,14 +102,15 @@ const Projects = () => {
                                     </p>
                                 </div>
                                 <div class="card-footer bg-transparent mb-3">
-                                    <a
+                                    <span
                                         class="btn btn-outline-primary btn-sm text-uppercase"
-                                        href=""
+                                         href=""
                                         target="_blank"
+                                        rel="noreferrer" 
                                     >
                                         <span class="material-icons-outlined me-1">comming soon</span>
                                         
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                         </div>

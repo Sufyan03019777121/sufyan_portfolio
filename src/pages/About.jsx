@@ -36,6 +36,7 @@ const About = () => {
           <a
             href="https://wa.me/923019777121?"
             target="_blank"
+            rel="noreferrer" 
           >
 
             <button className="btn btn-primary mt-3">Hire Me</button>

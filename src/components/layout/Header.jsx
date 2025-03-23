@@ -1,6 +1,6 @@
 import React from 'react'
 import header_img from '../../assets/images/header_img.jpeg'
-import { Navbar } from 'react-bootstrap'
+
 
 
 
@@ -37,7 +37,7 @@ const Header = () => {
             </div>
             <div className="col-lg-6 col-xl-6 col-xxl-6 justify-content-center">
               <img className="img-fluid rounded-3 my-5"
-                src={header_img} alt="Hero Image" />
+                src={header_img} alt="logo" />
             </div>
           </div>
         </div>

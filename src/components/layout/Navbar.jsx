@@ -1,5 +1,4 @@
 import React from 'react'
-import nav_logo from "../../styles/components/Navbar.css"
 import "../../styles/components/Navbar.css"
 
 const Navbar = () => {
@@ -8,12 +7,12 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg  bg-body-tertiary ">
         <div class="container">
           {/* logo */}
-          <a class="navbar-brand" href="#">
+          <span class="navbar-brand" >
             {/* <img src={nav_logo} alt="logo" /> */}
             <p>Sufyan</p>
             
 
-          </a>
+          </span>
           {/* toggle btn */}
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +29,7 @@ const Navbar = () => {
             <div class="sidebar d-flex flex-column offcanvas-body offcanvas-start">
               <ul class="navbar-nav  p-3 justify-content-end align-items-center  flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                  <span class="nav-link active text-primary" aria-current="page" >Home</span>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link  mx-3" href="#about">About</a>
