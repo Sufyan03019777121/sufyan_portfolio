@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Project from './pages/Projects';
 import Footer from './components/layout/Footer';
+import Calculator from './pages/Calculator ';
 
 
 
@@ -18,7 +19,9 @@ function App() {
       <About />
       <Contact />
       <Project />
+      <Calculator/>
       <Footer/>
+      
     </div>
   );
 }
