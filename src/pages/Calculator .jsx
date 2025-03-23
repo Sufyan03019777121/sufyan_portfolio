@@ -34,7 +34,7 @@ const Calculator = () => {
         />
         <div className="alert alert-primary text-center">{result}</div>
         <div className="btn-group d-flex flex-wrap">
-          {["7", "8", "9", "/", "4", "5", "6", "*", "1", "2", "3", "-", "0", ".", "=", "+"].map((btn) => (
+          {["1", "2", "3", "4", "5", ".", "6", "7", "8", "9", "0", "=", "*", "/", "-", "+"].map((btn) => (
             <button
               key={btn}
               className="btn btn-dark m-1 flex-fill"
