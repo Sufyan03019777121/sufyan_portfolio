@@ -1,5 +1,6 @@
 import React from 'react'
 import header_img from '../../assets/images/header_img.jpeg'
+import Button from '../common/Button'
 
 
 
@@ -9,11 +10,11 @@ import header_img from '../../assets/images/header_img.jpeg'
 const Header = () => {
   return (
     <div>
-     
+
       <header className="bg-light ">
         <div className="container px-5">
           <div className="row align-items-center">
-        
+
             <div
               className="col-lg-6 ">
               <div className="my-5">
@@ -24,13 +25,11 @@ const Header = () => {
 
                 </p>
                 <div className="d-grid gap-3 d-sm-flex justify-content-center">
-                  <a className="btn btn-primary btn-large text-uppercase" href="#about">
-                    Learn More
-                   
+                  <a href="#about">
+                    <Button text=" Learn More" />
                   </a>
-                  <a className="btn btn-outline-primary btn-large text-uppercase" href="#projects">
-                    View My Work
-                   
+                  <a href="#projects">
+                    <Button text="View My Work" />
                   </a>
                 </div>
               </div>

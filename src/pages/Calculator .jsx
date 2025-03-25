@@ -14,13 +14,14 @@ const Calculator = () => {
     setResult("");
   };
 
-  const handleCalculate = () => {
-    try {
-      setResult(eval(input));
-    } catch (error) {
-      setResult("Error");
-    }
-  };
+ const handleCalculate = () => {
+  try {
+    const sanitizedInput = input.replace(/[^-()\d/*+.]/g, ""); // غیر ضروری characters ہٹا دیں
+    setResult(Function('"use strict"; return (' + sanitizedInput + ')')());
+  } catch (error) {
+    setResult("Error");
+  }
+};
 
   return (
     <div className="container d-flex flex-column align-items-center mt-5 mb-5">

@@ -11,9 +11,11 @@ import Calculator from './pages/Calculator ';
 
 
 
+
 function App() {
   return (
     <div >
+      
       <Navbar />
       <Header />
       <About />

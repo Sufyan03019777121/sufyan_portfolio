@@ -1,0 +1,19 @@
+.button {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(145deg, #ff0077, #7a00ff);
+    box-shadow: 2px 2px 0 #5a0055, 3px 3px 5px #555;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.button:hover {
+    transform: translateY(3px);
+}
+

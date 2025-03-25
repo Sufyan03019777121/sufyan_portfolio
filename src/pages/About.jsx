@@ -1,5 +1,7 @@
 import React from "react";
 import about_me_img from '../assets/images/About_me.jpeg'
+import  Button  from "../components/common/Button";
+
 
 const About = () => {
   return (
@@ -38,8 +40,7 @@ const About = () => {
             target="_blank"
             rel="noreferrer" 
           >
-
-            <button className="btn btn-primary mt-3">Hire Me</button>
+            <Button text="Hire Me"/>
           </a>
 
         </div>
