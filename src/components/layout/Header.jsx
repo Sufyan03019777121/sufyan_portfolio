@@ -24,9 +24,13 @@ const Header = () => {
                   A React.js developer to build responsive UI components for your web application? Look no further! I specialize in crafting modern, efficient, and user-friendly interfaces using React.js
 
                 </p>
-                <div className="d-grid gap-3 d-sm-flex justify-content-center">
-                  <a href="#about">
-                    <Button text=" Learn More" />
+                <div className="d-grid gap-3 d-sm-flex justify-content-center ">
+                  <a href="#about"
+                   className="text-center"
+                  >
+                    <Button text=" Learn More"
+                   
+                    />
                   </a>
                   <a href="#projects">
                     <Button text="View My Work" />

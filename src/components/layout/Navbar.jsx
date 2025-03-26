@@ -10,7 +10,7 @@ const Navbar = () => {
           <span class="navbar-brand" >
             {/* <img src={nav_logo} alt="logo" /> */}
             <p>Sufyan</p>
-            
+
 
           </span>
           {/* toggle btn */}
@@ -29,16 +29,22 @@ const Navbar = () => {
             <div class="sidebar d-flex flex-column offcanvas-body offcanvas-start">
               <ul class="navbar-nav  p-3 justify-content-end align-items-center  flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <span class="nav-link active text-primary" aria-current="page" >Home</span>
+                  <span class="nav-link active text-primary" data-bs-dismiss="offcanvas" >Home</span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  mx-3" href="#about">About</a>
+                  <a class="nav-link  mx-3"
+                    aria-current="page"
+                    href="#about"
+                    data-bs-dismiss="offcanvas"
+                  >About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  " href="#contact">Contact</a>
+                  <a class="nav-link  " href="#contact"
+                    data-bs-dismiss="offcanvas"
+                  >Contact</a>
                 </li>
 
               </ul>
